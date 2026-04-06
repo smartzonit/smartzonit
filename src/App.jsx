@@ -127,7 +127,7 @@ export default function SmartzonIT() {
   const vendor = VENDORS.find((v) => v.id === activeVendor);
 
   const mailto = (() => {
-    const sub = encodeURIComponent("SmartZon IT — License Inquiry");
+    const sub = encodeURIComponent("SmartZon IT — License Inquiry ");
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company}\nVendor Interest: ${form.vendor}\n\nMessage:\n${form.message}`
     );

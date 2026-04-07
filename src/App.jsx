@@ -127,7 +127,7 @@ export default function SmartzonIT() {
   const vendor = VENDORS.find((v) => v.id === activeVendor);
 
   const mailto = (() => {
-    const sub = encodeURIComponent("SmartZon IT — License Inquiry ");
+    const sub = encodeURIComponent("SmartZon IT — License Inquiry");
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company}\nVendor Interest: ${form.vendor}\n\nMessage:\n${form.message}`
     );
@@ -381,7 +381,7 @@ export default function SmartzonIT() {
             <img
               src={LOGO_SRC}
               alt="SmartZon IT — Digital & Technology Consulting"
-              style={{ height: 200, width: "auto", objectFit: "contain", borderRadius: 10 }}
+              style={{ height: 60, width: "auto", objectFit: "contain", borderRadius: 10 }}
             />
           </div>
 
@@ -421,11 +421,7 @@ export default function SmartzonIT() {
 
         <div className="container" style={{ position: "relative", zIndex: 1 }}>
           <div className="fade-up">
-            <img
-              src={LOGO_SRC}
-              alt="SmartZon IT — Digital & Technology Consulting"
-              style={{ height: 110, width: "auto", objectFit: "contain", borderRadius: 14, marginBottom: 28, display: "block" }}
-            />
+
             <div className="eyebrow">🇸🇦 Authorised Software Reseller · Saudi Arabia</div>
           </div>
 
